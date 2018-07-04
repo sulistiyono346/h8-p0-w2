@@ -1,5 +1,6 @@
 // 1. Let's Form a Sentence
 
+console.log ('1. Let s Form a Sentence');
 
 var word = 'JavaScript';
 var second = 'is';
@@ -12,6 +13,8 @@ var seventh = 'it!';
 console.log (word,second,third,fourth,fifth,sixth,seventh);
 
 //2.Index Accessing - 1 by 1
+
+console.log ('2.Index Accessing - 1 by 1');
 
 var word= 'wow JavaScript is so cool';
 var FirstWord = word[0] + word[1] + word[2];
@@ -27,6 +30,8 @@ console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
 //3. Breaking Sentence (Again) using Substring
+
+console.log ('3. Breaking Sentence (Again) using Substring');
 
 var word3 = 'wow JavaScript is so cool';
 var FirstWord3 = word3.substring(0, 3);
