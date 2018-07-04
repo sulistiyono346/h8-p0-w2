@@ -1,1 +1,0 @@
-Tugas Senin W2
