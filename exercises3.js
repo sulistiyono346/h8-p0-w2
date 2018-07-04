@@ -1,4 +1,4 @@
-var nama =``;
+var nama =`Sulistio`;
 var peran=`Penyihir`;
 
 if (nama==""){
