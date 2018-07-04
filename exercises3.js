@@ -1,5 +1,5 @@
-var nama =`Sulistyo`;
-var peran=`Ksatria`;
+var nama =``;
+var peran=`Penyihir`;
 
 if (nama==""){
   console.log("Nama harus diisi!");
@@ -10,18 +10,36 @@ else{
   }
   else {
     if(peran=="Ksatria"){
-      console.log("Selamat datang di Dunia Proxytia,"+nama);
-      console.log("Hallo Ksatria "+nama,",kamu dapat menyerang dengan senjatamu!!");
+      if(nama==""){
+        console.log("Nama harus diisi!");
+      }
+      else {
+        console.log("Selamat datang di Dunia Proxytia,"+nama);
+        console.log("Hallo Ksatria "+nama,",kamu dapat menyerang dengan senjatamu!!");
+      }
+
     }
     else{
       if(peran=="Tabib"){
-        console.log("Selamat datang di Dunia Proxytia,"+nama);
-        console.log("Hallo Tabib "+nama ,",kamu akan membantu temanmu yang terluka.");
+        if(nama==""){
+          console.log("Nama harus diisi!!");
+        }
+        else {
+          console.log("Selamat datang di Dunia Proxytia,"+nama);
+          console.log("Hallo Tabib "+nama ,",kamu akan membantu temanmu yang terluka.");
+        }
+
       }
       else {
         if(peran=="Penyihir"){
-          console.log("Selamat datang di Dunia Proxytia,"+nama);
-          console.log("Hallo Penyihir "+nama,",ciptakan keajaiban yang membantu kemenanganmu!");
+          if(nama==""){
+            console.log("Nama harus diisi!");
+          }
+          else {
+            console.log("Selamat datang di Dunia Proxytia,"+nama);
+            console.log("Hallo Penyihir "+nama,",ciptakan keajaiban yang membantu kemenanganmu!");
+          }
+
         }
         else {
           console.log("Maff, "+nama,"Peran," +peran,"yang kamu pilih belum ada !!");
