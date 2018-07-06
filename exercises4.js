@@ -1,6 +1,6 @@
-//1. Solve Problems menggunakan Menggunakan Switch-Case
+//1. Solve Problems Menggunakan Switch-Case
 
-  console.log("1. 1. Solve Problems menggunakan Menggunakan Switch-Case");
+  console.log("1. 1. Solve Problems Menggunakan Switch-Case");
 
 
   var tanggal=25;
