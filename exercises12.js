@@ -17,9 +17,7 @@
         secondWord=secondWord;
     }
 
-
     var jamdinding =firstWord + ":"+secondWord;
-
 
     return jamdinding;
   }

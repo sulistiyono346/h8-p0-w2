@@ -4,12 +4,10 @@
 
     function balikKata(kata) {
 
-    //  return kata.split('').reverse().join('');
 
       var pisah = kata.split("");
       var balik = pisah.reverse();
       var gabung = balik.join("");
-
 
       return gabung;
     }

@@ -13,8 +13,7 @@
         else if (pisah1.length !== pisah2.length){
           return false;
         }
-
-    }
+     }
 
     console.log(xo('xoxoxo')); // true
     console.log(xo('oxooxo')); // false
