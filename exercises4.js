@@ -2,7 +2,6 @@
 
   console.log("1. 1. Solve Problems Menggunakan Switch-Case");
 
-
   var tanggal=25;
   var bulan= 9;
   var tahun=1995;
