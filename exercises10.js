@@ -13,7 +13,6 @@
         else if (angka1=angka2) {
           return -1
         }
-
     }
 
       console.log(bandingkanAngka(5, 8)); // true
