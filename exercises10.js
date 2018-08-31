@@ -14,7 +14,6 @@
           return -1
         }
     }
-
       console.log(bandingkanAngka(5, 8)); // true
       console.log(bandingkanAngka(5, 3)); // false
       console.log(bandingkanAngka(4, 4)); // -1
