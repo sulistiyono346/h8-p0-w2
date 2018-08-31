@@ -2,21 +2,25 @@
 
   console.log("1. Solve Problems menggunakan JavaScript Logic Challenge - X dan O()");
 
-    function xo(str){
+   function xo(str) {
 
-      var pisah1 = str.split('o');
-      var pisah2 = str.split('x');
+  var dataO = 0;
+  var dataX = 0;
+  for (i = 0; i < str.length; i++) {
+    if (str[i] === 'x') {
+      dataO = dataO + 1;
+    }
+    else if (str[i] === 'o') {
+      dataX = dataX + 1;
+    }
+    else {
+      return 'XXXXX';
+    }
+  }
 
-        if (pisah1.length === pisah2.length ) {
-            return true;
-        }
-        else if (pisah1.length !== pisah2.length){
-          return false;
-        }
-     }
-
-    console.log(xo('xoxoxo')); // true
-    console.log(xo('oxooxo')); // false
-    console.log(xo('oxo')); // false
-    console.log(xo('xxxooo')); // true
-    console.log(xo('xoxooxxo')); // true
+  if (dataO === dataX) {
+    return true;
+  } else {
+    return false;
+  }
+}
